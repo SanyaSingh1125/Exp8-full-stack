@@ -1,4 +1,4 @@
-# Spring Boot Product Management API with JWT Authentication
+![15a46c43-da7f-4b51-bc04-203e4985bd11](https://github.com/user-attachments/assets/585fd68d-b489-4dcd-b659-6e33eed2a7d8)![b3628482-f984-4b44-b5e2-2228ca166177](https://github.com/user-attachments/assets/19084429-6b65-438d-b4b4-dabdbfc2d52c)# Spring Boot Product Management API with JWT Authentication
 
 A secure RESTful API built using Spring Boot that provides product management functionality with JWT-based authentication and role-based authorization.
 
@@ -100,13 +100,14 @@ Password: password
 ## Output
 
 1. Register User
-![19608f88-b699-49e6-88fb-ba1c92156fef](https://github.com/user-attachments/assets/b34f11d6-c925-4142-a3b9-85152729461e)
+![19608f88-b699-49e6-88fb-ba1c92156fef](https://github.com/user-attachments/assets/42064491-3e53-46f2-8875-00c8b922c2f2)
 
 
 ---
 
 2. Register Admin
-![799b3426-c3ba-442b-923c-99e4fde06187](https://github.com/user-attachments/assets/20303078-338f-4b17-ada9-54e8ba2df8d2)
+![799b3426-c3ba-442b-923c-99e4fde06187](https://github.com/user-attachments/assets/eb21668d-2f2c-41fd-a99f-d4cf67126770)
+
 
 
 ---
@@ -114,47 +115,49 @@ Password: password
 3. Login
 
 Admin Login:
+![a0772c5c-e73c-4445-b88c-bee53f7de916](https://github.com/user-attachments/assets/cff5bbb2-ea63-40e6-8f58-d5e28024ce0e)
 
-![a0772c5c-e73c-4445-b88c-bee53f7de916](https://github.com/user-attachments/assets/424be619-ed54-4002-94aa-85b713cba4ee)
 
 
 User Login:
+![2d3f37e2-ba2f-4795-92b4-af9b115c7531](https://github.com/user-attachments/assets/be9d28c5-8833-4d66-9216-7334cc5094f5)
 
-![2d3f37e2-ba2f-4795-92b4-af9b115c7531](https://github.com/user-attachments/assets/0ddc0b9e-e018-4b2e-b4ae-614444850d0a)
 
 
 ---
 
 4. Refresh Token
+![e0128b9b-d2cb-4249-a530-f3a514fc7a34](https://github.com/user-attachments/assets/f84463f3-e58a-4572-beae-d5c91fbd5c57)
 
-![e0128b9b-d2cb-4249-a530-f3a514fc7a34](https://github.com/user-attachments/assets/3ecefca1-22d2-49dc-84df-35282f6a004a)
 
 
 ---
-
 5. Get All Users>
+![b3628482-f984-4b44-b5e2-2228ca166177](https://github.com/user-attachments/assets/cb11a1fb-180b-4fa4-bb2e-4bd6dc920c61)
 
-![b3628482-f984-4b44-b5e2-2228ca166177](https://github.com/user-attachments/assets/6803e89e-7ed4-429b-9987-eda722d0ddb2)
+
 
 ---
 
 6. Get User by ID
+![c1417ccf-cfde-498b-9c8f-4d5ea7410f9b](https://github.com/user-attachments/assets/aa2db356-dbf5-48d1-b59d-9dab2808f90f)
 
-![a4ba206a-4c17-4ec0-bd4d-1c0464d347ea](https://github.com/user-attachments/assets/1e87bcb1-1dc7-4afc-8b12-f313d0fb4088)
 
 
 ---
 
 7. Update User
+![35c7500f-56af-46e4-a2e1-38bcc0e823bd](https://github.com/user-attachments/assets/cabf90e6-1599-4f83-9d91-eab1d58f843c)
 
-![a50d58b1-8abd-4a2f-8962-ebe8fac07351](https://github.com/user-attachments/assets/6e1345f9-0163-4eac-b7bb-0efe1e548501)
+
 
 
 ---
 
 8. Delete User
+![b2214f8c-f3b4-4762-9bfc-79c24f7124f0](https://github.com/user-attachments/assets/55e3e8f3-ec07-4720-a133-17ab32a8a1ca)
 
-![f3718a61-a222-4931-9a44-4d8ca6523b06](https://github.com/user-attachments/assets/abd61685-229f-4cb1-96a0-9a4f2772d0e4)
+
 
 ---
 
@@ -189,32 +192,33 @@ User Login:
 ---
 
 14. Delete Product
+<img width="1024" height="658" alt="image" src="https://github.com/user-attachments/assets/9b0c6f54-9f9d-4377-beef-bde0d73550f8" />
 
-<img width="574" height="364" alt="product deleted " src="https://github.com/user-attachments/assets/60506ef0-8734-47e0-9efc-818ea7532ec6" />
 
 ---
 
 15. Unauthorized Access
+<img width="1024" height="591" alt="image" src="https://github.com/user-attachments/assets/2ac51e45-7917-43ac-8bb1-fafa1c44a9a6" />
 
-<img width="579" height="342" alt="unauthorized acces without token" src="https://github.com/user-attachments/assets/1846c98a-2af1-44d7-8623-767df7dcc145" />
 
 ---
 
 16. Role-based restriction
 
-<img width="573" height="396" alt="role restriced admin operation getting all users" src="https://github.com/user-attachments/assets/f2e40883-c12b-4ec8-9646-5c8d3d2f689f" />
+![15a46c43-da7f-4b51-bc04-203e4985bd11](https://github.com/user-attachments/assets/49720fca-3bb9-4272-afbb-21003bad4b97)
+
 
 ---
 
 User access denied to delete product of Admin:
+![4d39f19e-96f6-4ed8-9a68-d9c7ca2c599c](https://github.com/user-attachments/assets/8439d9ec-bedd-4de3-9829-529cf083ec30)
 
-<img width="578" height="406" alt="user access denied to delete product" src="https://github.com/user-attachments/assets/ee05a706-7660-43fb-b626-4236f79e05f4" />
 
 ---
 
 User update to the admin product forbidden:
+<img width="1024" height="715" alt="image" src="https://github.com/user-attachments/assets/a06a23ce-9061-4426-9346-3f0321a91132" />
 
-<img width="582" height="401" alt="user update to the admin product forbidden" src="https://github.com/user-attachments/assets/986c935d-ddf7-4d26-bab7-7f2043d4b6f3" />
 
 ---
 
