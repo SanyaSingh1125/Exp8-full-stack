@@ -100,14 +100,14 @@ Password: password
 ## Output
 
 1. Register User
+![19608f88-b699-49e6-88fb-ba1c92156fef](https://github.com/user-attachments/assets/b34f11d6-c925-4142-a3b9-85152729461e)
 
-<img width="577" height="545" alt="register user" src="https://github.com/user-attachments/assets/f6274279-99de-4ae9-ad42-336bd7f1d9bf" />
 
 ---
 
 2. Register Admin
+![799b3426-c3ba-442b-923c-99e4fde06187](https://github.com/user-attachments/assets/20303078-338f-4b17-ada9-54e8ba2df8d2)
 
-<img width="571" height="538" alt="admin registered" src="https://github.com/user-attachments/assets/9d6419c8-645d-4cd2-a49f-434dd36f6b26" />
 
 ---
 
@@ -115,41 +115,46 @@ Password: password
 
 Admin Login:
 
-<img width="574" height="531" alt="login admin (token)" src="https://github.com/user-attachments/assets/b29e9b63-b095-4f96-9128-d1c5b983ce21" />
+![a0772c5c-e73c-4445-b88c-bee53f7de916](https://github.com/user-attachments/assets/424be619-ed54-4002-94aa-85b713cba4ee)
+
 
 User Login:
 
-<img width="569" height="501" alt="user login" src="https://github.com/user-attachments/assets/d8fae45b-81ce-4bb8-8d27-e67837280542" />
+![2d3f37e2-ba2f-4795-92b4-af9b115c7531](https://github.com/user-attachments/assets/0ddc0b9e-e018-4b2e-b4ae-614444850d0a)
+
 
 ---
 
 4. Refresh Token
 
-<img width="573" height="540" alt="new token generated" src="https://github.com/user-attachments/assets/8f742506-53cb-4667-8633-96abbf041db3" />
+![e0128b9b-d2cb-4249-a530-f3a514fc7a34](https://github.com/user-attachments/assets/3ecefca1-22d2-49dc-84df-35282f6a004a)
+
 
 ---
 
-5. Get All Users
+5. Get All Users>
 
-<img width="568" height="538" alt="all users list" src="https://github.com/user-attachments/assets/104bca90-ca05-47d0-a8cc-9df47d2781df" />
+![b3628482-f984-4b44-b5e2-2228ca166177](https://github.com/user-attachments/assets/6803e89e-7ed4-429b-9987-eda722d0ddb2)
 
 ---
 
 6. Get User by ID
 
-<img width="574" height="455" alt="get user by id" src="https://github.com/user-attachments/assets/66d46642-d3a3-4b26-932b-9f89cc7da1c1" />
+![a4ba206a-4c17-4ec0-bd4d-1c0464d347ea](https://github.com/user-attachments/assets/1e87bcb1-1dc7-4afc-8b12-f313d0fb4088)
+
 
 ---
 
 7. Update User
 
-<img width="582" height="521" alt="user updated" src="https://github.com/user-attachments/assets/22c52054-80db-4991-b593-967b94ff52e9" />
+![a50d58b1-8abd-4a2f-8962-ebe8fac07351](https://github.com/user-attachments/assets/6e1345f9-0163-4eac-b7bb-0efe1e548501)
+
 
 ---
 
 8. Delete User
 
-<img width="568" height="347" alt="delete user" src="https://github.com/user-attachments/assets/ee687ce4-039e-43db-9463-28d16f801987" />
+![f3718a61-a222-4931-9a44-4d8ca6523b06](https://github.com/user-attachments/assets/abd61685-229f-4cb1-96a0-9a4f2772d0e4)
 
 ---
 
@@ -214,4 +219,4 @@ User update to the admin product forbidden:
 ---
 
 # Author 
-Prerna| 23BCS80341
+Sanya| 23BCS12970
