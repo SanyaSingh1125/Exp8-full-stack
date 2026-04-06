@@ -1,4 +1,4 @@
-![15a46c43-da7f-4b51-bc04-203e4985bd11](https://github.com/user-attachments/assets/585fd68d-b489-4dcd-b659-6e33eed2a7d8)![b3628482-f984-4b44-b5e2-2228ca166177](https://github.com/user-attachments/assets/19084429-6b65-438d-b4b4-dabdbfc2d52c)# Spring Boot Product Management API with JWT Authentication
+Spring Boot Product Management API with JWT Authentication
 
 A secure RESTful API built using Spring Boot that provides product management functionality with JWT-based authentication and role-based authorization.
 
