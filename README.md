@@ -163,31 +163,34 @@ User Login:
 
 9. Get All Products
 
-<img width="565" height="525" alt="all products list" src="https://github.com/user-attachments/assets/8f7c3835-4f24-4ba1-9af4-75919e4a1f07" />
+<img width="1024" height="658" alt="image" src="https://github.com/user-attachments/assets/5bf927a1-0e3e-490a-8fe7-22b4dd404bab" />
+
 
 ---
 
 10. Get My Products
 
-<img width="569" height="537" alt="get my product" src="https://github.com/user-attachments/assets/47b4b0ff-1d69-4c62-94b4-7282e1b18bf8" />
+<img width="1024" height="658" alt="image" src="https://github.com/user-attachments/assets/480f8143-582e-4b7f-9320-ac6b414607da" />
+
 
 ---
 
 11. Get Product by ID
+<img width="1024" height="658" alt="image" src="https://github.com/user-attachments/assets/45c0df96-091d-42f1-8297-eeb4b1d2977b" />
 
-<img width="567" height="472" alt="get product by id" src="https://github.com/user-attachments/assets/d2c7ac44-df49-4656-9397-579cb976b905" />
 
 ---
 
 12. Create Product
 
-<img width="567" height="501" alt="user created product" src="https://github.com/user-attachments/assets/4e710ed5-ce44-46a9-8acd-f3937c2a46d6" />
+<img width="1024" height="658" alt="image" src="https://github.com/user-attachments/assets/4fc4e500-68b2-4b1c-9613-05b617595b12" />
+
 
 ---
 
 13. Update Product
 
-<img width="557" height="549" alt="product updated" src="https://github.com/user-attachments/assets/a104c430-7558-4faf-a86e-5a7c4f477549" />
+<img width="1024" height="658" alt="image" src="https://github.com/user-attachments/assets/238b26f9-fa7c-4698-952b-e5873144abdc" />
 
 ---
 
