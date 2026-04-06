@@ -1,91 +1,91 @@
 Spring Boot Product Management API with JWT Authentication
 
-A secure RESTful API built using Spring Boot that provides product management functionality with JWT-based authentication and role-based authorization.
+A secure and scalable RESTful API built with Spring Boot and Spring Security that enables product management with JWT-based authentication and role-based authorization.
 
----
+This project demonstrates modern backend development practices including security, pagination, exception handling, and token-based authentication.
 
-## Features
+Key Features
+JWT Authentication (Access Token + Refresh Token)
+Role-Based Authorization (ADMIN / USER)
+Secure Product Management APIs (CRUD)
+User Management System
+Pagination and Filtering Support
+Global Exception Handling
+H2 In-Memory Database
+Clean Layered Architecture (Controller → Service → Repository)
 
-- JWT Authentication (Access + Refresh Token)
-- Role-Based Access Control (ADMIN / USER)
-- Product Management (CRUD Operations)
-- User Management (Admin / USER)
-- Pagination Support
-- Global Exception Handling
-- H2 In-Memory Database
 
----
+Technology Stack
+Technology:- Purpose
+Java:-	Backend Programming
+Spring Boot:-	Application Framework
+Spring Security:-	Authentication & Authorization
+JWT:-	Token-based Authentication
+Hibernate / JPA:-	ORM Framework
+H2 Database:-	In-Memory Database
+Maven:-	Dependency Management
 
-## Tech Stack
 
-- Java
-- Spring Boot
-- Spring Security
-- JWT (JSON Web Token)
-- Hibernate / JPA
-- H2 Database
-- Maven
+Authentication Workflow
+1 User logs in using email and password
+2 Server generates:
+  - Access Token (Short-lived)
+  - Refresh Token (Long-lived)
+3 Client sends access token in the Authorization header
+4 Server validates the token before processing each request
 
----
 
-## Authentication Flow
+Roles and Permissions
+Operation	         ADMIN	USER
+View Products	       Yes	Yes
+Create Product	     Yes	Yes
+Update Own Product	 Yes	Yes
+Update Any Product	 Yes	No
+Delete Product	     Yes	Own Only
+View All Users	     Yes	No
+Delete Users	       Yes	No
 
-1. User logs in with email & password  
-2. Server generates JWT access & refresh token  
-3. Client sends token in Authorization header  
-4. Server validates token for each request  
 
----
+API Endpoints
 
-## Roles & Permissions
+Authentication APIs
+Method	Endpoint	Description
+POST	/api/user/register	Register normal user
+POST	/api/user/register-admin	Register admin user
+POST	/api/user/login	Login and generate JWT
+POST	/api/user/refresh-token	Generate new access token
 
-| Operation | ADMIN | USER |
-|----------|--------|------|
-| View Products | Yes | Yes |
-| Create Product | Yes | Yes |
-| Update Own Product | Yes | Yes |
-| Update Any Product | Yes | No |
-| Delete Product | Yes | Own Only |
-| View All Users | Yes | No |
-| Delete Users | Yes | NO |
+User APIs
+Method	Endpoint	Access
+GET	/api/user/all	Admin
+GET	/api/user/{id}	User / Admin
+PUT	/api/user/update/{id}	User / Admin
+DELETE	/api/user/delete/{id}	Admin
 
----
+Product APIs
+Method	Endpoint
+GET	/api/product/all
+GET	/api/product/my-products
+GET	/api/product/{id}
+POST	/api/product/register
+PUT	/api/product/update/{id}
+DELETE	/api/product/delete/{id}
 
-##  API Endpoints
 
-###  Authentication
-- `POST /api/user/register`
-- `POST /api/user/register-admin`
-- `POST /api/user/login`
-- `POST /api/user/refresh-token`
-
-###  User APIs
-- `GET /api/user/all` (Admin only)
-- `GET /api/user/{id}`
-- `PUT /api/user/update/{id}`
-- `DELETE /api/user/delete/{id}` (Admin only)
-
-###  Product APIs
-- `GET /api/product/all`
-- `GET /api/product/my-products`
-- `GET /api/product/{id}`
-- `POST /api/product/register`
-- `PUT /api/product/update/{id}`
-- `DELETE /api/product/delete/{id}`
-
----
-
-##  How to Run
-
-1. Clone repository
-```bash
+Running the Application
+Step 1: Clone the Repository
 git clone https://github.com/your-username/springboot-jwt-product-management-Exp-8
-```
-2. Open in IDE (IntelliJ)
-3. Run application
-4. Access APIs via Postman
----
-## H2 Database Console
+Step 2: Open in IDE
+Open the project in IntelliJ IDEA / Eclipse / VS Code
+Step 3: Run the Application
+Run:
+Exp8Application.java
+Step 4: Test APIs
+Use Postman to test API endpoints.
+H2 Database Console
+Access the in-memory database at:
+
+http://localhost:8080/h2-console
 
 URL:
 http://localhost:8080/h2-console
